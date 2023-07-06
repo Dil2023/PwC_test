@@ -5,7 +5,7 @@ def remove_duplicates(input_string):
     for char in input_string:
         if char not in result:
             result += char
-    print(result)
+    return result
 
 
 remove_duplicates(input_string)
